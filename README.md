@@ -9,3 +9,4 @@ There should be 7 widgets in the application. Overview of functionalities of wid
   <li><strong>Input Text Here EditText</strong>: Place where you enter the data to send to the server.</li>
   <li><strong>Send button</strong>: Send the data to the server.</li>
 </ul>
+The application also support a UART reading from microbit feature. Simply use the Python code provided in the project and flash onto the microbit and you can use the buttons A and B to send 0s and 1s to the Android device. That data will automatically transported to the server as well.
