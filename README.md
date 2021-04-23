@@ -7,6 +7,7 @@ There should be 7 widgets in the application. Overview of functionalities of wid
   <li><strong>0 and 1 buttons</strong>: Press 1 to send "1" to the server and 0 to send "0" to the server.</li>
   <li><strong>Textview field</strong>: Shows all sent data regardless of types.</li>
   <li><strong>Input Text Here EditText</strong>: Place where you enter the data to send to the server.</li>
+  <li><strongLight Bulb</strong>: Shines when the data sent is 1 and turns off if the data is 0. The bulb stays the same if the data is not 0 or 1.
   <li><strong>Send button</strong>: Send the data to the server.</li>
 </ul>
 The application also support a UART reading from microbit feature. Simply use the Python code provided in the project and flash onto the microbit and you can use the buttons A and B to send 0s and 1s to the Android device. That data will automatically transported to the server as well.
